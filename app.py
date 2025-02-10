@@ -5,8 +5,10 @@ import streamlit as st
 
 st.title('Hello World!')
 
+st.session_state.number = '0'
 number = st.text_input('Please decimal number', value=st.session_state.number)
 
+st.session_state.hex_number = '0x0'
 hex_number = st.text_input('Please hexadecimal number', value=st.session_state.hex_number)
 
 btn = st.button('Convert')
