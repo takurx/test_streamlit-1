@@ -7,4 +7,7 @@ st.title('Hello World!')
 
 number = st.text_input('Please input number', '0')
 
-st.write('Square of your input number is', number*number)
+square_number = number * number
+
+st.write('Square of your input number is', square_number)
+
